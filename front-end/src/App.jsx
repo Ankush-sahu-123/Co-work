@@ -13,7 +13,9 @@ import Search from './pages/Search/Search'
 import Meeting from './pages/Meeting/Meeting'
 import Cowork from './pages/Cowork/Cowork'
 import Study from './pages/Study/Study'
-import Spaces from './pages/Spaces/Spaces'
+import SpacesCowork from './Spaces/SpacesCowork/SpacesCowork'
+import SpacesMeet from './Spaces/SpacesMeet/SpacesMeet'
+import SpacesStudy from './Spaces/SpacesStudy/SpacesStudy'
 
 const App = () => {
   return (
@@ -32,7 +34,9 @@ const App = () => {
         <Route path='/Meeting' element={<Meeting/>} />
         <Route path='/Cowork' element={<Cowork/>} />
         <Route path='/Study' element={<Study/>} />
-        <Route path='/Spaces' element={<Spaces/>} />
+        <Route path='/SpacesCowork' element={<SpacesCowork/>} />
+        <Route path='/SpacesMeet' element={<SpacesMeet/>} />
+        <Route path='/SpacesStudy' element={<SpacesStudy/>} />
       </Routes>
     </div>
   )

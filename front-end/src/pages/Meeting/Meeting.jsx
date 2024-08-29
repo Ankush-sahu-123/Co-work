@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./Meeting.css"
-import Spaces from '../Spaces/Spaces'
+import SpacesMeet from '../../Spaces/SpacesMeet/SpacesMeet';
 
 const Meeting = () => {
 
@@ -38,7 +38,7 @@ const Meeting = () => {
         </div>
       </div>
       <div className={showspaces === "search" ? "search active" : "search"}>
-        <Spaces />
+        <SpacesMeet/>
       </div>
     </div>
   )
