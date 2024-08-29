@@ -1,0 +1,57 @@
+.cards{
+    padding-top: 20px;
+}
+
+.card {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    display: flex;
+}
+
+.card img {
+    border-radius: 10px;
+    height: 260px;
+    width: 410px;
+    margin-right: 20px;
+}
+
+.space-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 260px;
+}
+
+.space-data{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.price{
+    font-size: 25px;
+    color: #ff590d;
+    font-weight: 700;
+}
+
+.detail-book{
+    padding:0 20px 20px 0;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+}
+
+.detail-book button{
+    padding: 9px 12px;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    background-color: #ff590d;
+}

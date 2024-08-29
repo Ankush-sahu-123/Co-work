@@ -38,7 +38,7 @@ const Meeting = () => {
         </div>
       </div>
       <div className={showspaces === "search" ? "search active" : "search"}>
-        <SpacesMeet/>
+        <SpacesMeet />
       </div>
     </div>
   )
