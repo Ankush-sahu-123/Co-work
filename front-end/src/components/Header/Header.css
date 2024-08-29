@@ -1,0 +1,25 @@
+.header {
+    height: 50vw;
+    margin-top: 30px;
+    background: url('https://media.istockphoto.com/id/1204970659/photo/modern-office-interior.jpg?s=612x612&w=0&k=20&c=YnybfzbCQlWuIieoG3szLttJMO93Z8XUvRJAyH9Yx7U=') no-repeat;
+    background-size: contain;
+    position: relative;
+}
+
+.header-contents {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 60%;
+    bottom: 22%;
+    left: 8vw;
+    animation: fadeIn 3s;
+}
+
+.header-contents h2 {
+    font-weight: 500;
+    color: #ffffff;
+    font-size: max(4.5vw, 22px);
+}
