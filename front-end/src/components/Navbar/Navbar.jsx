@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <div className='navbar'>
-        <h1 id='logo' className='logo'>Specters</h1>
+        <div id='logo' className='logo'><h1>DUNC</h1><h2>SPACES</h2></div>
         <ul className="navbar-menu">
           <Link to="/Home">
             <li onClick={()=>setMenu("home")} className={menu==="home"?"active":""}>home</li>

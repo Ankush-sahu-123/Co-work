@@ -3,14 +3,30 @@
     height: 80px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
 }
 
-.navbar .logo {
-    color: #ff6767;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 35px;
+.navbar .logo{
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
 }
+
+.navbar .logo h1{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    color: #000000;
+}
+
+.navbar .logo h2{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 200;
+    font-size: 25px;
+    color: #ff2600;
+}
+
+
 
 .navbar-menu {
     display: flex;
