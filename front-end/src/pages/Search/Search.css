@@ -18,7 +18,7 @@
 }
 
 .options .meeting.select{
-    background-color: #ff590d;
+    background-color: #ff2600;
     color: #ffffff;
     border-radius: 5px 0 0 5px;
 }
@@ -30,7 +30,7 @@
 
 
 .options .cowork.select{
-    background-color: #ff590d;
+    background-color: #ff2600;
     color: #ffffff;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .options .study.select{
-    background-color: #ff590d;
+    background-color: #ff2600;
     color: #ffffff;
     border-radius: 0 5px 5px 0
 }

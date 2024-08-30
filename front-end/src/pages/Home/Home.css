@@ -1,0 +1,14 @@
+.category h1{
+        color: #262626;
+        font-weight: 500;
+        text-align: left;
+}
+
+.sample-spaces{
+    margin-top: 360px;
+}
+
+.type-name-text p{
+    margin: 60px 0px 0px 0px;
+    font-size: 25px;
+}

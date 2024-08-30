@@ -1,9 +1,12 @@
 .header {
     height: 50vw;
     margin-top: 30px;
-    background: url('https://media.istockphoto.com/id/1204970659/photo/modern-office-interior.jpg?s=612x612&w=0&k=20&c=YnybfzbCQlWuIieoG3szLttJMO93Z8XUvRJAyH9Yx7U=') no-repeat;
-    background-size: contain;
     position: relative;
+}
+
+.header video{
+    width: 100%;
+    border-radius: 20px;
 }
 
 .header-contents {
