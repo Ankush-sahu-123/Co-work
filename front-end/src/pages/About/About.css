@@ -1,3 +1,6 @@
+.about{
+    animation: fadeIn 3s;
+}
 
 .about-name{
    margin: 20px 0px 0px 20px;
@@ -16,7 +19,7 @@
 .tagline{
     text-align: center;
     font-size: 26px;
-    margin-top: 60px;
+    margin: 40px 0;
     color: #7c7c7c;
 }
 
@@ -31,8 +34,12 @@
 }
 
 .images{
-    width: 500px;
-    height: 280px;
-    border-radius: 20px;
-    background-color: #2e2e2e;
+    display: flex;
+}
+
+.images img{
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    
 }

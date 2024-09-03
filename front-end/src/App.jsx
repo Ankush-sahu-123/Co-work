@@ -8,7 +8,6 @@ import Register from './pages/Register/Register'
 import About from './pages/About/About'
 import Services from './pages/Services/Services'
 import Contacts from './pages/Contacts/Contacts'
-import LandingPage from './pages/LandingPage/LandingPage'
 import Search from './pages/Search/Search'
 import Meeting from './pages/Meeting/Meeting'
 import Cowork from './pages/Cowork/Cowork'
@@ -22,7 +21,7 @@ const App = () => {
     <div className='app'>
       <Navbar/>
       <Routes>
-        <Route path='/' element={<LandingPage/>} />
+        <Route path='/' element={<Home/>} />
         <Route path='/Signup' element={<Signup/>} />
         <Route path='/Login' element={<Login/>} />
         <Route path='/Register' element={<Register/>} />

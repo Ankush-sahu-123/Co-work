@@ -1,0 +1,126 @@
+.service-page{
+    /* padding:40px 0; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    animation: fadeIn 3s;
+}
+
+.service-name{
+    text-align: left;
+    font-size: 20px;
+    color: #464b5a;
+    margin:0px 0 40px 10px;
+    cursor: pointer;
+}
+
+
+.box-service-sample{
+    width: 100%;
+    display: flex;
+    margin-bottom: 40px;
+}
+.box-service-sample img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.image-border1{
+    border-radius: 30px;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: #e0e0e0;
+    margin-left: 25px;
+    margin-top: 25px;
+    z-index: -1;
+    animation: move-out 0.6s, fadeIn 0.8s;
+}
+
+.image-border1.active{
+    animation: move-in 0.5s;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.image-border2{
+    border-radius: 30px;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: #e0e0e0;
+    margin-left: 25px;
+    margin-top: 25px;
+    z-index: -1;
+    animation: move-out 0.6s, fadeIn 0.8s;
+}
+
+.image-border2.active{
+    animation: move-in 0.5s;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.image-border3{
+    border-radius: 30px;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: #e0e0e0;
+    margin-left: 25px;
+    margin-top: 25px;
+    z-index: -1;
+    animation: move-out 0.6s, fadeIn 0.8s;
+}
+
+.image-border3.active{
+    animation: move-in 0.5s;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.image-border4{
+    border-radius: 30px;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: #e0e0e0;
+    margin-left: 25px;
+    margin-top: 25px;
+    z-index: -1;
+    animation: move-out 0.6s, fadeIn 0.8s;
+}
+
+.image-border4.active{
+    animation: move-in 0.5s;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.image-details{
+    font-size: 2vw;
+    text-align: center;
+    margin: auto 100px;
+}
+
+@keyframes move-out{
+    0%{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    100%{
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+}
+
+@keyframes move-in{
+    0%{
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+    100%{
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+}

@@ -10,6 +10,8 @@ import place_6 from './place_6.png'
 import place_7 from './place_7.png'
 import place_8 from './place_8.png'
 import video_1 from './Cowork-home-video.mp4'
+import ayush_pic from './ayush_pic.png'
+import ankush_pic from './ankush_pic.png'
 
 
 import add_icon_white from './add_icon_white.png'
@@ -46,7 +48,10 @@ export const assets = {
     logout_icon,
     bag_icon,
     parcel_icon,
-    video_1
+    video_1,
+    ayush_pic,
+    ankush_pic,
+
 }
 
 export const menu_list = [
